@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    background-color: #066185;
+
+    
+}
+
+.form-login {
+    width: 400px;
+    height: 400px;
+    background: #05a7e7;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px orangered;
+    border-radius: 3%;
+    padding: 20px 30px;
+    border-top: 4px solid orangered;
+    color: aliceblue;
+}
+
+.form-login h1 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.imagen{
+    margin-left: 135px;
+    border-radius: 50%;
+    height: 70px;
+    font-size: 20px;
+    opacity: 90%;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid #017bad;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #d2d6d6;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttons {
+    width: 100%;
+    height: 40px;
+    background: #017bad;
+    border: none;
+    color: aliceblue;
+    margin-bottom: 16px;
+}
+
+.boton {
+    width: 100%;
+    height: 40px;
+    background: #017bad;
+    border: none;
+    color: aliceblue;
+    margin-bottom: 16px;
+}
+
+
+.boton:hover {
+    background-color: #066185;
+    transform: translateY(2px);
+    box-shadow: 0 5px rgb(241, 234, 234);
+    cursor: pointer;
+}
+
+.form-login p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.form-login a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-login a:hover {
+    text-decoration: underline;
+}
+
+.boton a:hover{
+    text-decoration: none;
+}
